@@ -15,7 +15,7 @@ input.onButtonPressed(Button.AB, function () {
     basic.showString("Centimeter")
 })
 input.onButtonPressed(Button.B, function () {
-    basic.showNumber(Inches)
+    basic.showNumber(Feet)
     basic.showString("Feet")
     basic.showString("=")
     Inches = Feet * 12
@@ -26,7 +26,7 @@ input.onGesture(Gesture.Shake, function () {
     basic.showNumber(Feet)
     basic.showString("Feet")
     basic.showString("=")
-    Centimeters = Feet * 12
+    Centimeters = Feet * 30.48
     Meters = Centimeters / 100
     basic.showNumber(Meters)
     basic.showString("Meters")
