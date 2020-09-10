@@ -10,7 +10,7 @@ input.onButtonPressed(Button.AB, function () {
     basic.showNumber(Feet)
     basic.showString("Feet")
     basic.showString("=")
-    Centimeters = Feet * 12
+    Centimeters = Feet * 30.48
     basic.showNumber(Centimeters)
     basic.showString("Centimeter")
 })
